@@ -1,0 +1,12 @@
+discord.py==2.4.0
+typing
+collections
+app_commands
+typing
+Dict
+datetime
+timedelta
+Button
+View
+psutil
+json
