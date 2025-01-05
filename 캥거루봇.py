@@ -578,5 +578,5 @@ async def ban(interaction: discord.Interaction, user: discord.Member, reason: st
         await interaction.response.send_message(embed=embed, ephemeral=True)
 
 
-
-bot.run("MTMyMzY1ODIzODQ5OTIyNTY1MA.GajuNj.o4Z2XrrtvE2coALdaWpSxRD1FhO3uCOr6WQEyA")
+access_token = os.environ["BOT_TOKEN"]
+bot.run("access_token")
